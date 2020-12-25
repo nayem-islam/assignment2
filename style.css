@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+}
+td {
+  border: 5px solid rgb(112, 145, 196);
+  padding: 0 10px;
+  width: 200px;
+  height: 50px;
+}
+th {
+  border: 5px solid rgb(112, 145, 196);
+  color: rgb(3, 3, 1);
+  padding: 0 10px;
+  width: 200px;
+  height: 60px;
+}
+caption {
+  color: rgb(8, 136, 175);
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+tr:nth-child(odd) {
+  background-color: rgb(193, 223, 236);
+}
